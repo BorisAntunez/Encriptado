@@ -1,0 +1,107 @@
+header{
+    height: 48px;
+    top: 168px;
+    left: 240px;
+    padding: 2.5%;
+   
+    
+}
+.menuNavegacion{
+    position: absolute;
+    top: 110px;
+    right: 70px;
+    margin: 0 0 65px;
+}
+.menuNavegacion li{
+    display: inline;
+    margin: 0 0 0px 25px;
+    color: white;
+
+}
+.menuNavegacion a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+body{
+   background-image: url(Imagenes/fondo4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+  
+
+}
+
+#ingresaCodigo{
+    background: transparent;
+    width: 50%;
+    height: 150px;
+    margin: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+::placeholder{
+    color:rgb(224, 127, 203) ;
+    
+}
+
+.ingresaTexto button{
+    
+    border: 2px solid black;
+    background-color: rgb(112, 26, 108);
+    width: 300px;
+    margin: 25px;
+    height: 80px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    float: left;
+}
+
+.ingresaTexto button:hover{
+    background: rgb(121, 27, 39);
+    transform: scale(1.2);
+    border-radius: 8px;
+}
+
+.imagenRespuesta{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin: 0 190px;
+    
+
+}
+#resultasdoCodigo{
+    background: transparent;
+    width: 50%;
+    height: 150px;
+    margin: 10px 10px 10px;
+    border: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    
+    
+
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
+
+
+

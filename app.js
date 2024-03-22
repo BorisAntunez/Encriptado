@@ -1,6 +1,6 @@
 const textArea = document.querySelector("#ingresaCodigo");
 const mensaje = document.querySelector("#resultasdoCodigo");
-
+ 4
 //La letra "e" es convertida para "enter"
 //La letra "i" es convertida para "imes"
 //La letra "a" es convertida para "ai"
@@ -25,7 +25,9 @@ function encrinptar(stringEncriptada){
     }
     return stringEncriptada;
 
-
+console.log = btnEncriptar;
 
 }
+
+
 

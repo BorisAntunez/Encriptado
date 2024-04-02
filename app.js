@@ -21,6 +21,23 @@ function encrinptar(stringEncriptada){
 
 }
 
+function copiarTexto() {
+    // Seleccionar el elemento del área de texto
+    const textArea = document.querySelector("#ingresaCodigo");
+
+    // Seleccionar el texto dentro del área de texto
+    textArea.select();
+
+    // Copiar el texto al portapapeles
+    document.execCommand("copy");
+
+    // Deseleccionar el texto después de copiar
+    window.getSelection().removeAllRanges();
+
+    // Alerta al usuario que el texto ha sido copiado
+    alert("Texto copiado al portapapeles");
+}
+
 function btnDesencriptar() {
     const textoDesencriptado = desencriptar(textArea.value);
     mensaje.value = textoDesencriptado;

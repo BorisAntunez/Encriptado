@@ -70,18 +70,20 @@ body{
     border-radius: 8px;
 }
 
+
 .imagenRespuesta{
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
     margin: 0 190px;
+
     
 
 }
 #resultasdoCodigo{
     background: transparent;
-    width: 50%;
+    width: 60%;
     height: 150px;
     margin: 10px 10px 10px;
     border: white;
